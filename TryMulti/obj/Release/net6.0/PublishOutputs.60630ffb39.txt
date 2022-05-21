@@ -1,0 +1,5 @@
+/Users/alexhome/Projects/TryMulti/TryMulti/bin/Release/net6.0/publish/TryMulti
+/Users/alexhome/Projects/TryMulti/TryMulti/bin/Release/net6.0/publish/TryMulti.dll
+/Users/alexhome/Projects/TryMulti/TryMulti/bin/Release/net6.0/publish/TryMulti.deps.json
+/Users/alexhome/Projects/TryMulti/TryMulti/bin/Release/net6.0/publish/TryMulti.runtimeconfig.json
+/Users/alexhome/Projects/TryMulti/TryMulti/bin/Release/net6.0/publish/TryMulti.pdb

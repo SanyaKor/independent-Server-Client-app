@@ -1,0 +1,15 @@
+/Users/alexhome/Projects/TryMulti/TryMulti/bin/Release/net6.0/TryMulti
+/Users/alexhome/Projects/TryMulti/TryMulti/bin/Release/net6.0/TryMulti.deps.json
+/Users/alexhome/Projects/TryMulti/TryMulti/bin/Release/net6.0/TryMulti.runtimeconfig.json
+/Users/alexhome/Projects/TryMulti/TryMulti/bin/Release/net6.0/TryMulti.dll
+/Users/alexhome/Projects/TryMulti/TryMulti/bin/Release/net6.0/TryMulti.pdb
+/Users/alexhome/Projects/TryMulti/TryMulti/obj/Release/net6.0/TryMulti.csproj.AssemblyReference.cache
+/Users/alexhome/Projects/TryMulti/TryMulti/obj/Release/net6.0/TryMulti.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexhome/Projects/TryMulti/TryMulti/obj/Release/net6.0/TryMulti.AssemblyInfoInputs.cache
+/Users/alexhome/Projects/TryMulti/TryMulti/obj/Release/net6.0/TryMulti.AssemblyInfo.cs
+/Users/alexhome/Projects/TryMulti/TryMulti/obj/Release/net6.0/TryMulti.csproj.CoreCompileInputs.cache
+/Users/alexhome/Projects/TryMulti/TryMulti/obj/Release/net6.0/TryMulti.dll
+/Users/alexhome/Projects/TryMulti/TryMulti/obj/Release/net6.0/refint/TryMulti.dll
+/Users/alexhome/Projects/TryMulti/TryMulti/obj/Release/net6.0/TryMulti.pdb
+/Users/alexhome/Projects/TryMulti/TryMulti/obj/Release/net6.0/TryMulti.genruntimeconfig.cache
+/Users/alexhome/Projects/TryMulti/TryMulti/obj/Release/net6.0/ref/TryMulti.dll
