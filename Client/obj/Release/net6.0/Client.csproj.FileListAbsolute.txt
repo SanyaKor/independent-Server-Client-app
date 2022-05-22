@@ -1,0 +1,15 @@
+/Users/alexhome/Projects/TryMulti/Client/bin/Release/net6.0/Client
+/Users/alexhome/Projects/TryMulti/Client/bin/Release/net6.0/Client.deps.json
+/Users/alexhome/Projects/TryMulti/Client/bin/Release/net6.0/Client.runtimeconfig.json
+/Users/alexhome/Projects/TryMulti/Client/bin/Release/net6.0/Client.dll
+/Users/alexhome/Projects/TryMulti/Client/bin/Release/net6.0/Client.pdb
+/Users/alexhome/Projects/TryMulti/Client/obj/Release/net6.0/Client.csproj.AssemblyReference.cache
+/Users/alexhome/Projects/TryMulti/Client/obj/Release/net6.0/Client.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexhome/Projects/TryMulti/Client/obj/Release/net6.0/Client.AssemblyInfoInputs.cache
+/Users/alexhome/Projects/TryMulti/Client/obj/Release/net6.0/Client.AssemblyInfo.cs
+/Users/alexhome/Projects/TryMulti/Client/obj/Release/net6.0/Client.csproj.CoreCompileInputs.cache
+/Users/alexhome/Projects/TryMulti/Client/obj/Release/net6.0/Client.dll
+/Users/alexhome/Projects/TryMulti/Client/obj/Release/net6.0/refint/Client.dll
+/Users/alexhome/Projects/TryMulti/Client/obj/Release/net6.0/Client.pdb
+/Users/alexhome/Projects/TryMulti/Client/obj/Release/net6.0/Client.genruntimeconfig.cache
+/Users/alexhome/Projects/TryMulti/Client/obj/Release/net6.0/ref/Client.dll

@@ -20,7 +20,9 @@ namespace TryMulti
 		{
 			public TcpClient socket;
 			private NetworkStream stream;
-			private byte[] receiveBuffer;
+			private byte[] receiveBuffer; 
+
+			
 			private readonly int id;
 
 			public TCP(int _id)
@@ -39,6 +41,24 @@ namespace TryMulti
 				receiveBuffer = new byte[dataBufferSize];
 
 				stream.BeginRead(receiveBuffer, 0, dataBufferSize, ReceiveCallback, null);
+
+				ServerSend.Welcome(id, "Welcome to the server!");
+            }
+
+			public void SendData(Packet _packet)
+            {
+                try
+                {
+					if(socket != null)
+                    {
+						//Console.WriteLine("Sending package...");
+						stream.BeginWrite(_packet.ToArray(), 0, _packet.Length(), null, null);
+                    }
+                }
+                catch(Exception ex)
+                {
+					Console.WriteLine($"Error sending data to player {id} via TCP: {ex}");
+                }
             }
 
             private void ReceiveCallback(IAsyncResult ar)

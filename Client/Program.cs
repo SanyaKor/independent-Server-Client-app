@@ -9,10 +9,12 @@ namespace Client
     {
         static void Main(string[] args)
         {
-            Console.Title = "Server";
+            Console.Title = "client";
             var singleton = Client.Instance;
             
             singleton.ConnectToServer();
+
+            
             Console.ReadKey();
         }
     }

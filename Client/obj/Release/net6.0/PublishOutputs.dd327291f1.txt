@@ -1,0 +1,5 @@
+/Users/alexhome/Projects/TryMulti/Client/bin/Release/net6.0/publish/Client
+/Users/alexhome/Projects/TryMulti/Client/bin/Release/net6.0/publish/Client.dll
+/Users/alexhome/Projects/TryMulti/Client/bin/Release/net6.0/publish/Client.deps.json
+/Users/alexhome/Projects/TryMulti/Client/bin/Release/net6.0/publish/Client.runtimeconfig.json
+/Users/alexhome/Projects/TryMulti/Client/bin/Release/net6.0/publish/Client.pdb
