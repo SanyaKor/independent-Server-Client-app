@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{7712F120-180B-405F-9F0E-C70732640530}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -8,29 +8,25 @@
       <Breakpoint file="/Users/alexhome/Projects/TryMulti/Client/ClientHandle.cs" relfile="Client/ClientHandle.cs" line="8" column="1" />
       <Breakpoint file="/Users/alexhome/Projects/TryMulti/Client/ClientHandle.cs" relfile="Client/ClientHandle.cs" line="12" column="1" />
       <Breakpoint file="/Users/alexhome/Projects/TryMulti/Client/ClientHandle.cs" relfile="Client/ClientHandle.cs" line="13" column="1" />
+      <Breakpoint file="/Users/alexhome/Projects/TryMulti/Client/Client.cs" relfile="Client/Client.cs" line="95" column="1" />
+      <Breakpoint file="/Users/alexhome/Projects/TryMulti/Client/Client.cs" relfile="Client/Client.cs" line="128" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Client/Client.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TryMulti/Program.cs">
     <Files>
-      <File FileName="TryMulti/Client.cs" Line="1" Column="1" />
-      <File FileName="TryMulti/Packet.cs" Line="1" Column="1" />
-      <File FileName="TryMulti/Program.cs" Line="1" Column="1" />
-      <File FileName="TryMulti/ServerSend.cs" Line="1" Column="1" />
-      <File FileName="TryMulti/Server.cs" Line="14" Column="1" />
-      <File FileName="Client/Program.cs" Line="1" Column="1" />
-      <File FileName="Client/Packet.cs" Line="107" Column="1" />
       <File FileName="Client/ClientHandle.cs" Line="1" Column="1" />
-      <File FileName="Client/Client.cs" Line="78" Column="1" />
-      <File FileName="Client/ThreadManager.cs" Line="28" Column="1" />
+      <File FileName="TryMulti/ServerSend.cs" Line="43" Column="6" />
+      <File FileName="TryMulti/Server.cs" Line="1" Column="1" />
+      <File FileName="TryMulti/Client.cs" Line="1" Column="1" />
+      <File FileName="TryMulti/Program.cs" Line="17" Column="15" />
+      <File FileName="Client/Client.cs" Line="96" Column="8" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TryMulti" expanded="True">
-            <Node name="Client" expanded="True">
-              <Node name="Client.cs" selected="True" />
-            </Node>
+            <Node name="Client" expanded="True" />
             <Node name="TryMulti" expanded="True" />
           </Node>
         </State>

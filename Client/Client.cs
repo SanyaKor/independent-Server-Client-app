@@ -78,6 +78,22 @@ namespace Client
 				stream.BeginRead(receiveBuffer, 0, dataBufferSize, ReceiveCallback,null); 
 			}
 
+
+			public void SendData(Packet _packet)
+            {
+                try
+                {
+					if(socket != null)
+                    {
+						stream.BeginWrite(_packet.ToArray(), 0, _packet.Length() ,null,null);
+                    }
+                }
+                catch(Exception ex)
+                {
+					Console.WriteLine($"Error sending data to server via TCP: {ex}");
+                }
+            }
+
             private void ReceiveCallback(IAsyncResult ar)
             {
 				try
@@ -162,6 +178,14 @@ namespace Client
 
 			Console.WriteLine("Initialized packets.");
         }
+
+		//  public void ShowPackages()
+		//  {
+		//	foreach (KeyValuePair<int, PacketHandler> kvp in packetHandlers)
+		//	{
+		//		Console.WriteLine("Key = {0}, Value = {1}", kvp.Key, kvp.Value);
+		//	}
+		//  }
 	}
 }
 

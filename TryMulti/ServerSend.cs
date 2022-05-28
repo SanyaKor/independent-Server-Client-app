@@ -10,7 +10,7 @@ namespace TryMulti
 			Server.clients[_toClient].tcp.SendData(_packet);
         }
 
-		private static void SendTCPDataToALL(int _toClient, Packet _packet)
+		private static void SendTCPDataToALL( Packet _packet)
 		{
 			_packet.WriteLength();
 			for(int i = 1; i <= Server.MaxPlayers; i++)
@@ -30,6 +30,17 @@ namespace TryMulti
 				SendTCPData(_toClient, _packet);
             };
         }
+
+		//public static void Sender(string _msg)
+  //      {
+		//	using (Packet _packet = new Packet((int)ServerPackets.welcome))
+		//	{
+		//		_packet.Write(_msg);
+
+
+		//		SendTCPDataToALL( _packet);
+		//	};
+		//}
 	}
 }
 

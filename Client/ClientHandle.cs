@@ -8,9 +8,9 @@ namespace Client
 			string _msg = _packet.ReadString();
 			int _myId = _packet.ReadInt();
 
-
 			Console.WriteLine($"Message from server: {_msg}");
 			Client.Instance.myId = _myId;
+			ClientSend.WelcomeReceived();
 
 			// TODO : SEND WELCOME 
 		}
